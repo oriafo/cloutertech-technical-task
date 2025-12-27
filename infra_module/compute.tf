@@ -5,6 +5,8 @@ resource "aws_instance" "web_server" {
   instance_type          = var.instance_type
   subnet_id              = aws_subnet.private_subnet.id
   vpc_security_group_ids = [aws_security_group.web_sg.id]
+  user_data_replace_on_change = true
+
 
   user_data = <<-EOF
               #!/bin/bash
@@ -24,6 +26,7 @@ resource "aws_instance" "web_server" {
               </head>
               <body style="font-family: Arial; text-align: center; margin-top: 50px;">
                 <h1>Abraham Ibharunujele</h1>
+                <p>Terraform AWS Web Server</p>
               </body>
               </html>
               HTML
