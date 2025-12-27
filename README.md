@@ -28,6 +28,7 @@ follow the prompt, providing your Aws non-root IAM access_key, Secret_access_Key
 cd remote_backend
 terraform init
 terraform apply --auto-approve
+
 cd ../infra_instance
 terraform init
 terraform plan
