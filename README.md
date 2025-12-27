@@ -1,6 +1,6 @@
 # Architectural Diagram
 
-![Alt text](./asset/technical_diagram.jpg "Optional title")
+![Architectral diagram](./asset/technical_diagram.jpg "Optional title")
 
 
 # Terraform AWS Web Server
@@ -26,3 +26,4 @@ cd ../infra_instance
 terraform init
 terraform plan
 terraform apply --auto-apply
+```
