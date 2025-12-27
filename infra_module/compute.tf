@@ -24,7 +24,6 @@ resource "aws_instance" "web_server" {
               </head>
               <body style="font-family: Arial; text-align: center; margin-top: 50px;">
                 <h1>Abraham Ibharunujele</h1>
-                <p>Terraform AWS Web Server</p>
               </body>
               </html>
               HTML
