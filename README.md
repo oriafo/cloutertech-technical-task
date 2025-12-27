@@ -27,3 +27,7 @@ terraform init
 terraform plan
 terraform apply --auto-apply
 ```
+
+##  Note
+
+After terraform apply is successful, it output the load_balancer_dns which you can use to access the webserver
