@@ -21,11 +21,11 @@ The server hosts a static HTML page displaying my full name.
 ```bash
 cd remote_backend
 terraform init
-terraform apply --auto-apply
+terraform apply --auto-approve
 cd ../infra_instance
 terraform init
 terraform plan
-terraform apply --auto-apply
+terraform apply --auto-approve
 ```
 
 ##  Note
