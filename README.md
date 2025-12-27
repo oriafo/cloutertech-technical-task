@@ -18,6 +18,12 @@ The server hosts a static HTML page displaying my full name.
 - AWS CLI configured
 
 ## How to Run
+- Configure an aws IAM profile with the name "ruth-dev"
+```
+aws configure --profile ruth-dev
+```
+follow the prompt, providing your Aws non-root IAM access_key, Secret_access_Key and region as us-east-1
+
 ```bash
 cd remote_backend
 terraform init
